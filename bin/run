@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Runs the game in development mode.
+#
+set -o nounset -o errexit
+
+love src/
